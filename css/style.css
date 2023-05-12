@@ -2,8 +2,13 @@
 @import '/css/dashboard.css';
 @import '/css/user-search.css';
 @import '/css/secction-calculate.css';
-@import '/css/filter-song.css';
+@import '/css/filter-date.css';
 @import '/css/camp-calculate.css';
+@import '/css/content-dashboard.css';
+@import '/css/content-section-bar.css';
+
+
+
 body{
     
     background-color:#070E0E;
@@ -15,7 +20,7 @@ body{
 }
 
 .content-inicial{
-    display: flex;
+  
 }
 
 p{
@@ -25,6 +30,11 @@ p{
 @media screen and (max-width: 767px) {
     .dashboard {
       display: none;
+    }
+
+    .content-section-bar{
+       
+        padding-left: 0rem;
     }
 
   }

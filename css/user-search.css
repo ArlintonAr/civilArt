@@ -2,4 +2,7 @@
    padding: .5rem;
    display: flex;
    justify-content: flex-end;
+   position: sticky;
+   top: 0px;
+   background-color: #070E0E;
 }
