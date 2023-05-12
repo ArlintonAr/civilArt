@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import '/css/dashboard.css';
+@import '/css/user-search.css';
+@import '/css/secction-calculate.css';
+@import '/css/filter-song.css';
+@import '/css/camp-calculate.css';
+body{
+    
+    background-color:#070E0E;
+    box-sizing: border-box;
+    margin:0;
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+}
+
+.content-inicial{
+    display: flex;
+}
+
+p{
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .dashboard {
+      display: none;
+    }
+
+  }
+

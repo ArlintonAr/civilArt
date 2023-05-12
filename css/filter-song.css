@@ -1,0 +1,20 @@
+.filter-song{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    padding: 0.62rem;
+    color: white;
+}
+.filter-song input{
+    border: none;
+    background:#454757;
+    border-radius:15px;
+    padding: .5rem;
+    color: white;
+}
+.filter-song i{
+    cursor: pointer;
+}
+.filter-song img{
+    border-radius: 50%;
+}

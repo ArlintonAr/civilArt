@@ -1,0 +1,23 @@
+
+.secction-calculate{
+    flex-grow: 1;
+}
+.head-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.tittle{
+    color: #F65606;
+}
+.tittle h1{
+    margin: 0px;
+    padding: 0px;
+
+} 
+.tittle p{
+    font-size: .8rem;
+    color: #454757;
+    margin: 0px;
+}
