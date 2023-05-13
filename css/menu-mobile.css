@@ -1,0 +1,38 @@
+.menu-mobile {
+    position: sticky;
+    bottom: 0px;
+    background-color: #070E0E;
+}
+
+.menu-icons {
+    
+    display: flex;
+    gap: 2.5rem;
+    justify-content: space-around;
+    align-items: center;
+    block-size: 3.8rem;
+    
+}
+.menu-icons li{
+    list-style: none;
+    inline-size: 2.6rem;
+    block-size: 2.6rem;
+    border-radius: 100%;
+
+    cursor: pointer;
+     /* Para centrar hijo*/
+    position: relative; 
+}
+.menu-icons li:hover{
+    background-color:#35BCB7;
+    transition: .9s;
+}
+.menu-icons li i { 
+    font-size: 1.2rem;
+    /* Para centrar*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+

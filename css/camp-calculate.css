@@ -29,11 +29,13 @@
     padding: .2rem;
     inline-size: 10rem;
     block-size: 1.5rem;
+    
 
 }
 .input{
     padding: .2rem;
     border: none;
+    outline: none;
     inline-size: 10rem;
     block-size: 1.5rem;
     background-color:#C4C7CF;

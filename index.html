@@ -14,9 +14,6 @@
     <div class="content-inicial">
 
         <section class="content-dashboard">
-            <div class="menu" hidden>
-                <i class="fa-solid fa-house"></i>
-            </div>
             <div class="dashboard">
                 <div class="logo">
                     <img src="/img/logo.png" width="45px" alt="">
@@ -41,28 +38,44 @@
                     </ul>
                 </div>
 
-                <div class="mode">
-                    <span class="icon-light">Light</span>
-                    <div class="content-icons">
-                        <i class="fa-regular fa-sun"></i>
-                        <button class="controller-mode"></button>
-                        <span hidden><i class="fa-solid fa-moon"></i></span>
+                <div class="mode-page">
+                    <div class="mode">
+                        <span class="icon-light">Light</span>
+                        <div class="content-icons">
+                            <i class="fa-regular fa-sun"></i>
+                            <button class="controller-mode"></button>
+                            <span hidden><i class="fa-solid fa-moon"></i></span>
+                        </div>
+                        <span>Dark</span>
                     </div>
-                    <span>Dark</span>
                 </div>
             </div>
         </section>
 
         <section class="content-section-bar">
             <div class="user-search">
+                <div class="mode-page-mobile" hidden >
+                    <div class="mode-mobile">
+                        <span class="icon-light">Light</span>
+                        <div class="content-icons">
+                            <i class="fa-regular fa-sun"></i>
+                            <button class="controller-mode"></button>
+                            <span hidden><i class="fa-solid fa-moon"></i></span>
+                        </div>
+                        <span>Dark</span>
+                    </div>
+                </div>
+
                 <form class="filter-date" role="search" aria-label="Filtrar">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <input type="search" placeholder="Filtrar">
                     <img src="/img/arlinton.jpg" width="28px" alt="">
                 </form>
             </div>
+
             <div class="section-home" id="sectionHome">
             </div>
+            
             <div class="secction-calculate" id="sectionCalculate">
                 <div class="head-section">
                     <div class="tittle">
@@ -155,6 +168,16 @@
                     </div>
                 </div>
 
+            </div>
+
+            <div class="menu-mobile" hidden>  
+                <div class="menu-icons">
+                    <li><i class="fa-solid fa-note-sticky"></i></li>  
+                    <li><i class="fa-solid fa-wave-square"></i></li>
+                    <li><i class="fa-solid fa-list-check"></i></li>
+                    <li><i class="fa-solid fa-plus-minus"></i></li>
+                    <li><i class="fa-solid fa-house"></i></li>
+                </div>        
             </div>
         </section>
 

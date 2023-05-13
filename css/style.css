@@ -7,7 +7,7 @@
 @import '/css/content-dashboard.css';
 @import '/css/content-section-bar.css';
 
-
+@import '/css/menu-mobile.css';
 
 body{
     
@@ -32,10 +32,15 @@ p{
       display: none;
     }
 
-    .content-section-bar{
-       
+    .content-section-bar{       
         padding-left: 0rem;
     }
 
+    .menu-mobile{
+        display: block;
+    }
+    .mode-page-mobile{
+        display: block;
+    }
   }
 

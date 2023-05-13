@@ -1,7 +1,16 @@
 .user-search {
+
    display: flex;
    justify-content: flex-end;
+   align-items: center;
+   gap: 2.5rem;
+ 
+   flex-grow: 1;
+   
    position: sticky;
+
    top: 0px;
-   background-color: #070E0E;
+   background-color: rgb(7 14 14/ 70%);
+   backdrop-filter: blur(2px);
+
 }
