@@ -42,5 +42,11 @@ p{
     .mode-page-mobile{
         display: block;
     }
+    .logo img{
+        display: block;
+    }
+    .logo p{
+        display: block;
+    }
   }
 
